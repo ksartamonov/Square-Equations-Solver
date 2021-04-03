@@ -133,7 +133,7 @@ void SolvingCheckingFunc ( )
   }
 }
 //------------------------------------------------------------------------------
-int IsZero( double x)
+int IsZero( double x )
 {
   if (fabs(x) < Accuracy)
     return 1;
